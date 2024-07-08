@@ -20,6 +20,7 @@ Steps to run the project without Docker
 #Things to note:
 i ran the project using docker and faced few challenges
 
+- Create your an .env file
 - the .sh file either was not found in the /app/ or if it was present it could not be run
 - both things can be overcome by:
 - change entrypoint entrypoint: ["sh", "/app/run_server.sh"] in the docker compose file
